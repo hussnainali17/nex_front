@@ -15,7 +15,7 @@ const UpdateProfile = () => {
     pitchDeckLink: ''
   });
   const [businessImage, setBusinessImage] = useState('/public/images/charles-forerunner-3fPXt37X6UQ-unsplash.jpg');
-  const [entrepreneurImage, setEntrepreneurImage] = useState('/public/images/Avatar.png');
+  const [entrepreneurImage, setEntrepreneurImage] = useState('https://i.postimg.cc/nh2JLc4Q/Avatar.png');
   const [showBusinessUrlInput, setShowBusinessUrlInput] = useState(false);
   const [showEntrepreneurUrlInput, setShowEntrepreneurUrlInput] = useState(false);
 
@@ -34,10 +34,10 @@ const UpdateProfile = () => {
           fundingNeed: data.profile?.fundingNeed || '',
           pitchDeckLink: data.profile?.pitchDeckLink || '',
           businessImage: data.profile?.businessImage || '/public/images/charles-forerunner-3fPXt37X6UQ-unsplash.jpg',
-          entrepreneurImage: data.profile?.entrepreneurImage || '/public/images/Avatar.png'
+          entrepreneurImage: data.profile?.entrepreneurImage || 'https://i.postimg.cc/nh2JLc4Q/Avatar.png'
         });
         setBusinessImage(data.profile?.businessImage || '/public/images/charles-forerunner-3fPXt37X6UQ-unsplash.jpg');
-        setEntrepreneurImage(data.profile?.entrepreneurImage || '/public/images/Avatar.png');
+        setEntrepreneurImage(data.profile?.entrepreneurImage || 'https://i.postimg.cc/nh2JLc4Q/Avatar.png');
       })
       .catch(error => {
         console.error('Error fetching profile:', error);

@@ -13,7 +13,7 @@ const Update_Profile = () => {
     portfolioCompanies: [],
     avatar: '',
   });
-  const [avatar, setAvatar] = useState('/public/images/bernd-dittrich-pYlBAu3de0w-unsplash.jpg');
+  const [avatar, setAvatar] = useState('https://i.postimg.cc/nh2JLc4Q/Avatar.png');
   const [showAvatarUrlInput, setShowAvatarUrlInput] = useState(false);
 
   useEffect(() => {

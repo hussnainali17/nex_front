@@ -8,7 +8,7 @@ const MiddleSec = () => {
         
         <div className='grid grid-cols-1 md:grid-cols-3 gap-8 mt-10 px-4 md:px-12 py-8'>
             <div className='flex flex-col items-center text-center' onClick={()=>{navigate('/signup')}}>
-                <img className='w-60 h-60 object-cover rounded-xl mb-4 shadow-lg' src="/public/images/a5fee5b6-917e-49c5-9133-e2907d6dbc11.jpeg" alt="" />
+                <img className='w-60 h-60 object-cover rounded-xl mb-4 shadow-lg' src="https://i.postimg.cc/7LLyJ89t/a5fee5b6-917e-49c5-9133-e2907d6dbc11.jpg" alt="" />
                 <div>
                     <p className='font-bold text-2xl'>Signup.</p>
                     <p className='text-gray-500 max-w-xs'>
@@ -17,7 +17,7 @@ const MiddleSec = () => {
                 </div>
             </div>
             <div className='flex flex-col items-center text-center'>
-                <img className='w-60 h-60 object-cover rounded-xl mb-4 shadow-lg' src="/public/images/6f6f8d8f-3a5c-4106-8eff-247e219df256.jpeg" alt="" />
+                <img className='w-60 h-60 object-cover rounded-xl mb-4 shadow-lg' src="https://i.postimg.cc/52bJ1FCV/6f6f8d8f-3a5c-4106-8eff-247e219df256.jpg" alt="" />
                 <div>
                     <p className='font-bold text-2xl'>Discover.</p>
                     <p className='text-gray-500 max-w-xs'>
@@ -26,7 +26,7 @@ const MiddleSec = () => {
                 </div>
             </div>
             <div className='flex flex-col items-center text-center'>
-                <img className='w-60 h-60 object-cover rounded-xl mb-4 shadow-lg' src="/public/images/Global Data Network_ An intricate visual….jpeg" alt="" />
+                <img className='w-60 h-60 object-cover rounded-xl mb-4 shadow-lg' src="https://i.postimg.cc/FKz2sbF2/Global-Data-Network-An-intricate-visual.jpg" alt="" />
                 <div>
                     <p className='font-bold text-2xl'>Connect.</p>
                     <p className='text-gray-500 max-w-xs'>
@@ -37,7 +37,7 @@ const MiddleSec = () => {
         </div>
         <div className='grid grid-cols-1 md:grid-cols-2 gap-8 mt-10 px-4 md:px-12 py-8'>
             <div className='flex flex-col items-center text-center' onClick={()=>{navigate('/dashboard_Ent')}}>
-                <img className='w-80 h-80 object-cover  mb-4 ' src="\public\images\Black and white Illustration of a successful….jpeg" alt="" />
+                <img className='w-80 h-80 object-cover  mb-4 ' src="https://i.postimg.cc/FKnXjWnr/Black-and-white-Illustration-of-a-successful.jpg" alt="" />
                 <div>
                     <p className='font-bold text-2xl'>Entrepreneur</p>
                     <p className='text-gray-500 max-w-xs'>
@@ -46,7 +46,7 @@ const MiddleSec = () => {
                 </div>
             </div>
             <div className='flex flex-col items-center text-center' onClick={()=>{navigate('/dashboard')}}>
-                <img className='w-80 h-80 object-cover mb-4' src="\public\images\Loan free icons designed by Icongeek26.jpeg" alt="" />
+                <img className='w-80 h-80 object-cover mb-4' src="https://i.postimg.cc/zfQ4LLV3/Loan-free-icons-designed-by-Icongeek26.jpg" alt="" />
                 <div>
                     <p className='font-bold text-2xl'>Investor</p>
                     <p className='text-gray-500 max-w-xs'>

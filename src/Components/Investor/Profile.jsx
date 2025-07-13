@@ -34,7 +34,7 @@ const Profile = () => {
       const name = investor.name || "";
       const email = investor.email || "";
       const bio = investor.profile?.bio || "";
-      const avatar = investor.profile?.avatar || '/public/images/Avatar.png';
+      const avatar = investor.profile?.avatar || 'https://i.postimg.cc/nh2JLc4Q/Avatar.png';
       const investmentInterests = investor.profile?.investmentInterests || [];
       const portfolioCompanies = investor.profile?.portfolioCompanies || [];
 

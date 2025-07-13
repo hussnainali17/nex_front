@@ -55,7 +55,7 @@ const Collaborators = () => {
                   ? {
                       _id: collaborator.investorId.user._id || collaborator.investorId.user,
                       name: collaborator.investorId.user.name,
-                      imageUrl: collaborator.investorId.avatar || '',
+                      imageUrl: collaborator.investorId.avatar || 'https://i.postimg.cc/nh2JLc4Q/Avatar.png',
                     }
                   : null;
                 if (receiver) {

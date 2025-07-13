@@ -36,7 +36,7 @@ const Profile = () => {
   const name = user.name || '';
   const email = user.email || '';
   const businessImage = profile.businessImage || '/public/images/charles-forerunner-3fPXt37X6UQ-unsplash.jpg';
-  const entrepreneurImage = profile.entrepreneurImage || '/public/images/Avatar.png';
+  const entrepreneurImage = profile.entrepreneurImage || 'https://i.postimg.cc/nh2JLc4Q/Avatar.png';
 
   const logoutHandle = async () => {
     try {

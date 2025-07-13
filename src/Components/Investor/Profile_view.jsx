@@ -15,7 +15,7 @@ const Profile_view = () => {
         <div className="flex flex-col md:flex-row items-center gap-6">
           <img
             src={avatar}
-            alt="Investor Avatar"
+            alt="https://i.postimg.cc/nh2JLc4Q/Avatar.png"
             className="w-32 h-32 rounded-full object-cover shadow mb-2 md:mb-0"
           />
           <div className="flex flex-col items-center md:items-start text-center md:text-left gap-2">

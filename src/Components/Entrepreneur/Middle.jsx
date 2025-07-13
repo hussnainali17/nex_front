@@ -91,7 +91,7 @@ const Middle = () => {
                   ? {
                       _id: req.investorId.user._id || req.investorId.user,
                       name: req.investorId.user.name,
-                      imageUrl: req.investorId.avatar || '',
+                      imageUrl: req.investorId.avatar || 'https://i.postimg.cc/nh2JLc4Q/Avatar.png',
                     }
                   : null;
                 if (receiver) {
